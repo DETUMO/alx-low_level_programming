@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+/**
+ *  main - prints alphabets
+ *
+ *  Description: Using the main function
+ *
+ *  Return: 0
+ *
+ */
+
+int main(void)
+{
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		if (alpha != 'e' && alpha != 'q')
+	{
+		putchar(alpha);
+	}
+	}
+	putchar('\n');
+	return (0);
+}
