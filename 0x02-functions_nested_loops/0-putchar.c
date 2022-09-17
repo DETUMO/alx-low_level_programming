@@ -1,23 +1,20 @@
 #include "main.h"
-
 /**
- * main - Prints _putchar
- *
- * Description: using the function main
- * this program prints _putchar and returns 0
- * Return: return 0
+ * _putchar - check the code
+ * @c: character
+ * Return: Always 0.
  */
 int main(void)
 {
-	char putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-
-	unsigned int c;
-
-	for (c = 0; c < sizeof(putchar); c++)
-	{
-		_putchar(putchar[c]);
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
