@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _putchar - check the code
- * @c: character
+ * main - check the code
+ *
  * Return: Always 0.
  */
 int main(void)
