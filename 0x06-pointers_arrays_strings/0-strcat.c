@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - appends strings
+ * *_strcat - appends strings
  * @dest; first strings
  * @src: second strings
  * Return: Always 0.
@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 
 	while (src[b] != '\0')
 	{
-		dest[a] = src[b];
+		dest[a] = src[b]; /*hello world */
 		a++;
 		b++;
 	}
