@@ -2,7 +2,7 @@
 
 /**
  * *_strcat - appends strings
- * @dest; first strings
+ * @dest: first strings
  * @src: second strings
  * Return: Always 0.
  */
