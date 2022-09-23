@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * *cap_string check the code
- * @str: pointer
- * Return: Always 0.
+ * *cap_string - capitalizes all words of a string
+ * @n: input value
+ *
+ *
+ * Return: string
  */
-
 char *cap_string(char *n)
 {
 	int i;
