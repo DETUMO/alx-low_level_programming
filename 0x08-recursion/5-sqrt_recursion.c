@@ -3,32 +3,32 @@
 /**
  * _sqrt_recursion - func that returns the natural square root of a number.
  * @n: for number input
- * Return: 0
+ * Return: the square root of @n
  */
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
+
 		return (0);
-	else if (n == 1)
-		return (1);
-	else if (n < 0)
-		return (-1);
-	else
-		return (helper(n, 1));
+	return (helper(n, 1));
 }
+
 /**
- * helper - blank
+ * helper - finds the square root of two numbers
+ *
  * @n: number
  * @i: incrementor
- * Return: -1;
+ *
+ * Return: square root
  */
 
 int helper(int n, int i)
 {
-	if (n == (i * i))
-		return (i);
-	else if (n > (i * i))
-		return (helper(n, i + 1));
-	else
+	if (n * n > i)
 		return (-1);
+	else if (n * n == i)
+		return (n);
+	else
+		return (helper(i, n + 1));
+	return (1);
 }
